@@ -1,6 +1,49 @@
+.header{
+    text-align: center;
+    width: 100%;
+}
+
+.main-wrapper{
+    text-align: center;
+    height: 25em;
+    width: 100%;
+}
+
+#shuttle-status{
+    float: left;
+    width: 33%;
+    text-align: center;
+    display: block;
+}
+
 #shuttleBackground {
     background-color: green;
     display: inline-block;
-    height: 80%;
-    width: 40%;
+    height: 95%;
+    width: 33%;
+    position: relative;
+    border: 1px black;
+}
+
+#LC-rocket{
+    position: absolute;
+    height: 5em;
+    width: 30%;
+    bottom: 0;
+    right: 35%;
+}
+
+#shuttle-nav-controls{
+    float: right;
+    width: 33%;
+    text-align: center;
+    display: block;
+}
+
+#shuttleHeight{
+    display:inline-block;
+}
+
+#mission-controls{
+    text-align: center;
 }
